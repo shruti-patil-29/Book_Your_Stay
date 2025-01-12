@@ -1,0 +1,110 @@
+header {
+    background:aqua;
+    padding: 10px 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color:chocolate;
+	font-size: 20px;
+    text-decoration: none;
+}
+
+body
+{
+	background-color:darkcyan;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size:cover;
+
+}
+
+h1{
+	color:deeppink;
+	text-align:center;
+	font-weight:bold;
+	font-style: italic;
+	font-size:60px;
+}
+
+section {
+    padding: 10px;
+    text-align: center;
+}
+
+.resort-card {
+    display: inline-block;
+	width: 300px;
+    height: 220px;
+	margin: 15px;
+	border: 1px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.resort-card img {
+    width: 300px;
+    height: 220px;
+}
+
+.info{
+	width: 1400px;
+	height: auto;
+	margin-left:20px ;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+	border: 2px solid red;
+	background-color: bisque;
+}
+
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button{
+	font-size: 2rem;
+	box-shadow: 0px 0px 20px;
+	border-radius: 12px;
+	background-color:greenyellow;
+	padding: 10px 20px;
+	width: 10%;
+	text-align: center;
+}
+.button1{
+	font-size: 2rem;
+	box-shadow: 0px 0px 20px;
+	border-radius: 12px;
+	background-color:deeppink;
+	padding: 10px 20px;
+	width: 10%;
+	text-align: center;
+}

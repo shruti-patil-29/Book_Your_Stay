@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:bisque;
+}
+
+header {
+    background:aqua;
+    padding: 10px 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color:brown;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+    text-align: center;
+}
+
+.resort-card {
+    display: inline-block;
+	width: 300px;
+    height: 420px;
+	margin: 15px;
+	border: 1px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.resort-card img {
+    width: 300px;
+    height: 200px;
+}
+
+.resort-card h3 {
+    background: #f4f4f4;
+    margin: 0;
+    padding: 10px;
+}
+
+footer{
+	background-color: #333;
+	text-align: center;
+	color: beige;
+	padding: 10px 0;
+}
+
+
+
